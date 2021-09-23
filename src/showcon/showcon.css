@@ -1,0 +1,36 @@
+.showcon{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.conTable {
+    flex: 9;
+    padding: 50px;
+    background: rgb(206, 153, 255,.4);
+ 
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.conTitle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    color: rgb(26, 0, 51);
+    border-bottom: 1px solid rgb(26, 0, 51);
+    border-top: 1px solid rgb(26, 0, 51);
+    padding: 10px;
+}
