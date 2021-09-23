@@ -1,1 +1,37 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
 
+.blogDes {
+    flex-wrap: wrap;
+    flex: 9;
+    background: rgb(217, 140, 140,.3);
+}
+
+.containerAbout{
+    padding:20px;
+    text-align:justify;
+}
+
+.aboutTitle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    color: brown;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+    padding:10px;
+}
+
+.midTtile {
+    font-family: 'Scheherazade New', serif;
+    border-bottom: 1px solid gray;
+    padding:10px;
+    opacity:.9;
+}
+.aboutImg{
+    width:100%;
+}
